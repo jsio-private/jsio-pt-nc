@@ -1,0 +1,19 @@
+{
+  "name": "jsio-pt-nc",
+  "displayName": "netcat",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {},
+  "jsioProjectType": {
+    "handlers": {
+      "create": {},
+      "run": {
+        "cmd": "nc -l {TCP_PORT}",
+        "tcpPort": true,
+        "useShell": true
+      },
+      "build": {}
+    },
+    "buildTypes": []
+  }
+}
